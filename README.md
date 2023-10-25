@@ -11,19 +11,49 @@ measure the model's ability to determine between churn and non-churn cases.
 <img src="ROC_PRC.png" alt="Image Description">
 <img src="f1_score_different_models.png" alt="Image Description">
 ### Evalution
-  F1 Score on Validation Set: 0.6231454005934718
+ <table border="1">
+  <tr>
+    <th>Metrics</th>
+    <th>Value</th>
+  </tr>
+  <tr>
+    <td>F1 Score on Validation Set:</td>
+    <td>0.6231454005934718</td>
+  </tr>
+  <tr>
+    <td>F1 Score on Test Set:</td>
+    <td>0.6122448979591836</td>
+  </tr>
+</table>
+<br>
+<h3>Classification Report on Test Set:</h3>
+<table border="1">
+  <tr>
+    <th>Label</th>
+    <th>Precision</th>
+    <th>Recall</th>
+    <th>F1-Score</th>
+    <th>Support</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0.90</td>
+    <td>0.94</td>
+    <td>0.92</td>
+    <td>1468</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>0.68</td>
+    <td>0.56</td>
+    <td>0.61</td>
+    <td>351</td>
+  </tr>
+</table>
+<p>Accuracy: 0.86</p>
+<p>Macro Average: 0.76</p>
+<p>Weighted Average: 0.86</p>
 
-  F1 Score on Test Set: 0.6122448979591836
-
-  Classification Report on Test Set:
-               precision    recall  f1-score   support
-
-           0       0.90      0.94      0.92      1468
-           1       0.68      0.56      0.61       351
-
-    accuracy                           0.86      1819
-   macro avg       0.79      0.75      0.76      1819
-weighted avg       0.86      0.86      0.86      1819
 
 ## Conclusion
 We started by examining the class imbalance in the dataset and observed that the number of customers leaving the bank and churning their accounts. To address this issue, we employed both upsampling and downsampling techniques. This allowed to create balanced datasets for training and testing the models.
