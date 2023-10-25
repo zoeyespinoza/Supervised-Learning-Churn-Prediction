@@ -11,11 +11,11 @@ measure the model's ability to determine between churn and non-churn cases.
 <img src="ROC_PRC.png" alt="Image Description">
 <img src="f1_score_different_models.png" alt="Image Description">
 ### Evalution
-F1 Score on Validation Set: 0.6231454005934718
+  F1 Score on Validation Set: 0.6231454005934718
 
-F1 Score on Test Set: 0.6122448979591836
+  F1 Score on Test Set: 0.6122448979591836
 
-Classification Report on Test Set:
+  Classification Report on Test Set:
                precision    recall  f1-score   support
 
            0       0.90      0.94      0.92      1468
