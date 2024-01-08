@@ -1,6 +1,8 @@
 # Supervised-Learning-Churn-Prediction
 Customer Churn Prediction for Enhanced Retention at BetaBank
 
+Created machine learning models, including Logistic Regression, RandomForestClassifier, KNeighborsClassifier, and CatBoostClassifier that predicted which customers were at risk of leaving the telecommunications company. The selected model was a RandomForestClassifier with tuned hyperparameters using GridSearchCV
+
 ## Project Description
 Beta Bank has noticed a gradual attrition of its customer base, prompting them to address this challenge head-on. The bank believes that retaining existing customers is more cost-effective than acquiring new ones. To counteract this churn, the bank aims to predict which customers are likely to leave soon and take proactive measures to retain them. 
 
